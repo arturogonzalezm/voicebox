@@ -10,6 +10,7 @@ WORKDIR /build
 
 # Copy workspace config and frontend source
 COPY package.json bun.lock ./
+COPY CHANGELOG.md ./
 COPY app/ ./app/
 COPY web/ ./web/
 
